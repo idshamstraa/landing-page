@@ -29,7 +29,7 @@ a {
 .content-container{
     height: auto;
     padding: 16px;
-    background-color: rgb(245, 90, 90);
+    background-color: rgb(252, 6, 6);
     display: flex;
     flex-direction: column; 
     /* Stack elements vertical! */
@@ -69,7 +69,7 @@ h1{
 .sign-up-container{
     height: auto;
     padding: 16px;
-    background-color: rgb(245, 90, 90);
+    background-color: rgb(255, 4, 4);
     display: flex;
     flex-direction: column; 
     /* Stack elements vertical! */
@@ -81,7 +81,7 @@ h1{
 }
 
 button{
-    background-color: rgb(209, 41, 41);
+    background-color: rgb(245, 8, 8);
     color: white;
     
 }
