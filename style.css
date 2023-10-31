@@ -1,4 +1,7 @@
-
+.body{
+    min-height: 100vh;
+    display: flex;
+}
 .container{
     display: flex;
     justify-content: space-between;
@@ -30,7 +33,7 @@ a {
     display: flex;
     flex-direction: column; 
     /* Stack elements vertical! */
-    border: 4px solid red;
+    
     justify-content: center; 
     align-items: center;  
     margin-top: 5%;
@@ -53,8 +56,56 @@ h1{
     /* Add space around the images. */
 }
 
+.quote {
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-style: italic;
+    margin-top: 5%;
+    
+    
+}
+
+.sign-up-container{
+    height: auto;
+    padding: 16px;
+    background-color: rgb(245, 90, 90);
+    display: flex;
+    flex-direction: column; 
+    /* Stack elements vertical! */
+    
+    justify-content: center; 
+    align-items: center;  
+    margin-top: 5%;
+
+}
+
+button{
+    background-color: rgb(209, 41, 41);
+    color: white;
+    
+}
 
 
 
 
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    
+    flex-wrap: wrap;
+    margin-top: 5%;
+    color: red;
+}
+
+span {
+   
+    padding-left: 10px;
+}
+
+h4{
+    margin-right: 32px;
+}
 
